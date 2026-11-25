@@ -20,7 +20,7 @@ touch database/database.sqlite
 php artisan migrate
 php artisan serve
 ```
-Open `/register` to create a demo user. Use fictional data only. This portfolio sample is not hardened for production use.
+Open `/register` to create a demo user. This sample is built for one shop with shared management: every signed-in account sees the same products and sales. Do not expose open registration if that is not what you want. Use fictional data only. This portfolio sample is not hardened for production use.
 
 ## Tests
 ```bash
